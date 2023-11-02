@@ -42,3 +42,14 @@ range(3,9) */
     console.log(arrayRange);
     }
 range(3,9) */
+
+//back to the first step;
+// this kind of works but it puts start and end at the beginning and creates a new array for each iteration instead of just adding the nubmers to the array.
+function range(start, end) {
+    let arrayRange = [start, end];
+    for (let i = start; i <= end; i++) {
+        arrayRange.push(i);
+        console.log(arrayRange);
+    }
+}
+range(3,9);
