@@ -17,9 +17,17 @@ range(3,9); */
 range(3,9); */
 
 // Breaking it down... first make an empty array
-function range(start, end) {
+/* function range(start, end) {
     let arrayRange = [];
     console.log(arrayRange);
     }
-range(3,9);
+range(3,9); */
 
+//Next add start and end to the array
+function range(start, end) {
+    let arrayRange = [];
+    arrayRange.push(start);
+    arrayRange.push(end);
+    console.log(arrayRange);
+    }
+range(3,9)
