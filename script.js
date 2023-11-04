@@ -83,3 +83,12 @@ function range(start, end) {
     console.log(arrayRange);
 }
 range(3,9);
+
+let anotherArray = [1,2,3,4,5];
+function sumFinder(...anotherArray) {
+ 	let num = anotherArray[0];
+    for (nums of anotherArray) {
+       let summable = num + anotherArray[i + 1];
+    }
+	console.log(summable);
+}
